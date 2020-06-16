@@ -8,6 +8,8 @@ In this project I created a Python script that will take quotes from a [website]
 
 The idea is to automate, making the computer automatically run this script every day and post a post.
 
+[Follow this project in Instagram](https://www.instagram.com/super_simple_quotes/)
+
 ## How to use
 ```
 git clone git@github.com:sammarxz/04-instagram-post-generator.git
