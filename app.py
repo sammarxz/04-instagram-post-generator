@@ -1,3 +1,4 @@
+import os
 import datetime
 from scrap_quotes import get_quotes
 from generate_posts import generate_images
@@ -13,7 +14,7 @@ text = '''
 '''
 
 if __name__ == '__main__':
-    # print(filename)
-    quotes = get_quotes()
-    generate_images(quotes)
-    # post(filename, text)
+    if (len(os.listdir('./posts'))) <= 1:
+        quotes = get_quotes()
+        generate_images(quotes)
+    post(filename, 'test')
