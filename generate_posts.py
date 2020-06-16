@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 def draw_multiple_line_text(image, text, fontsize, text_color, text_start_height):
-    font = ImageFont.truetype('./fonts/AUTHENTICSans-60.otf', fontsize)
+    font = ImageFont.truetype('./fonts/AUTHENTICSans-90.otf', fontsize)
     draw = ImageDraw.Draw(image)
     image_width, image_height = image.size
     y_text = text_start_height
@@ -35,7 +35,7 @@ def generate_images(quotes):
         text2 = quote['author']
 
         text_color = (200, 200, 200)
-        author_color = (100, 100, 100)
+        author_color = (180, 180, 180)
 
         text_start_height = 80
 
