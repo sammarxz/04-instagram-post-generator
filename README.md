@@ -1,3 +1,5 @@
+![Preview of post](https://raw.githubusercontent.com/sammarxz/04-instagram-post-generator/master/2020-08-04.png)
+
 # 04-instagram-post-generator
 ok, I confess that I wavered a few days and was unable to follow the right sequence, but let's try again right? 
 
